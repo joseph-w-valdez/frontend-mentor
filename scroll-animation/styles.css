@@ -1,0 +1,30 @@
+body {
+  height: 200vh;
+  margin: 0;
+  background-color: #90c0f0;
+}
+
+.sunrise-sunset {
+  height: 100vh;
+  width: 100%;
+}
+
+.sun {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f8d030;
+  transform: translateX(-50%);
+  transition: all 0.5s ease-out;
+}
+
+.sun--sunset {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f06030;
+  box-shadow: 0 0 30px red;
+}
